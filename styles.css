@@ -5,7 +5,7 @@ html {
     background-color: white;
     background-color: rgba(255, 255, 255, 0.486);
     background-blend-mode: overlay;
-    background-image:url("https://rice.nekoweb.org/rice/cloth.png");
+    background-image:url("https://www.shutterstock.com/image-vector/cute-fashion-seamless-pattern-style-600nw-2472134927.jpg");
     padding:10px;
     image-rendering:pixelated;
     cursor: url('https://rice.nekoweb.org/toroinoue.ico'), auto;
@@ -22,9 +22,11 @@ html {
     width:600px;
     margin:0 auto;
     position:relative;
+    
 }
 
 .header {
+    margin-right: 40px;
     font-family:'CuteFont';
     font-size:90px;
     text-align:center;
@@ -51,34 +53,41 @@ html {
 
 .main {
     margin:0 auto;
-    margin-top:10px;
-    background-image: url("https://rice.place/rice/bluebg.png");
     border-radius:10px;
     padding:15px;
+    background-image: url("https://thumbs.dreamstime.com/b/light-blue-plaid-fabric-background-26298297.jpg");
     
 }
 
 .mainbox {
     width:100%;
     background-color: white;
-    padding:10px;
-    padding-bottom: 0px;
+    padding:0px;
+    padding-bottom: 5px;
     box-sizing: border-box;
     border-radius: 10px;
-    border:1px dashed #b2c8df;
+    border:2px dashed #7babde;
     overflow: hidden;
 }
 
 .tooltip-follow {
   position: absolute;
-  pointer-events: none; /* so it doesn't block the cursor */
+  pointer-events: none;
   background-color: #6c63ff;
   color: white;
   padding: 6px 10px;
   border-radius: 8px;
   font-size: 0.9rem;
   white-space: nowrap;
-  display: none; /* hide by default */
+  display: none;
   z-index: 1000;
 }
 
+.neon {
+  background-color: #fff;
+  padding: 20px 40px;
+  border-radius: 10px;
+
+  /* Drop shadow */
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4);
+}
