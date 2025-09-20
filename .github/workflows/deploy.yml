@@ -15,6 +15,6 @@ jobs:
         with:
           nekoweb-api-key: ${{ secrets.NEKOWEB_API_KEY }}
           nekoweb-cookie: ${{ secrets.NEKOWEB_COOKIE }}
-          nekoweb-domain: 'shayuki.nekoweb.org'
-          nekoweb-username: 'shayuki'
-          directory: '.'
+          nekoweb-domain: shayuki.nekoweb.org
+          nekoweb-username: shayuki
+          directory: .
