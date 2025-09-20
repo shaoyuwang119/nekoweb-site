@@ -5,7 +5,7 @@ html {
     background-color: white;
     background-color: rgba(255, 255, 255, 0.486);
     background-blend-mode: overlay;
-    background-image:url("https://www.shutterstock.com/image-vector/cute-fashion-seamless-pattern-style-600nw-2472134927.jpg");
+    background-image:url("images/blue-plaid.webp");
     padding:10px;
     image-rendering:pixelated;
     cursor: url('https://rice.nekoweb.org/toroinoue.ico'), auto;
@@ -55,7 +55,7 @@ html {
     margin:0 auto;
     border-radius:10px;
     padding:15px;
-    background-image: url("https://thumbs.dreamstime.com/b/light-blue-plaid-fabric-background-26298297.jpg");
+    background-image: url("images/blue-plaid-diag.webp");
     
 }
 
