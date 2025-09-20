@@ -8,7 +8,6 @@ html {
     background-image:url("images/blue-plaid.webp");
     padding:10px;
     image-rendering:pixelated;
-    cursor: url('https://rice.nekoweb.org/toroinoue.ico'), auto;
 }
 
 @font-face {
