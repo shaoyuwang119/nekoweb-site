@@ -1,17 +1,18 @@
 html {
     font-family:'CuteFont';
     font-size:18px;
-    color:#124375;
+    color:rgb(18, 67, 117);
     background-color: white;
     background-color: rgba(255, 255, 255, 0.486);
     background-blend-mode: overlay;
     background-image:url("images/blue-plaid.webp");
+    background-attachment: fixed;
     padding:10px;
-    image-rendering:pixelated;
+    letter-spacing: 0.5px;
 }
 
 @font-face {
-  font-family: 'CuteFont';       /* Name you’ll use in CSS */
+  font-family: 'CuteFont';
   src: url('fonts/Mochibop-Demo.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
@@ -19,6 +20,7 @@ html {
 
 .container {
     width:600px;
+    height:100vh;
     margin:0 auto;
     position:relative;
     
@@ -51,7 +53,8 @@ html {
 }
 
 .main {
-    margin:0 auto;
+    image-rendering:pixelated;
+    margin: 15px auto;
     border-radius:10px;
     padding:15px;
     background-image: url("images/blue-plaid-diag.webp");
@@ -61,19 +64,89 @@ html {
 .mainbox {
     width:100%;
     background-color: white;
-    padding:0px;
-    padding-bottom: 5px;
+    padding:12px;
     box-sizing: border-box;
     border-radius: 10px;
-    border:2px dashed #7babde;
+    border:1px dashed #7babde;
     overflow: hidden;
 }
 
-.neon {
-  background-color: #fff;
-  padding: 20px 40px;
-  border-radius: 10px;
+.mainbox.sidebar {
+  width:30%;
+}
 
-  /* Drop shadow */
-  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4);
+.middle {
+  width:45%
+}
+
+.subheaderbox {
+  border-radius: 10px;
+  background-image: url("images/blue-plaid-diag.webp");
+  text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
+  font-size: 20px;
+  letter-spacing: 1.5px;
+  padding: 2px 15px;
+}
+
+.textbox {
+  padding-top: 15px;
+  margin-left: 4px;
+}
+
+.boxshadow {
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4);
+}
+
+.pixelated {
+  image-rendering: pixelated;
+}
+
+.about-section {
+
+  margin: 10px 0px;
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.list {
+  margin-top:-5px;
+  text-align: center;
+  line-height: 180%;
+  text-decoration: underline;
+}
+
+.socialsbox {
+  display: flex;
+  align-items: center; 
+  gap: 10px;
+  margin: 15px 0;
+  padding: 2px;
+  border-radius: 8px;
+  background: rgba(255,255,255,0.05); 
+  transition: transform 0.2s ease, background 0.3s ease;
+}
+
+.socials {
+  width: 30px;
+  height: 30px;
+  border-radius: 6px;
+}
+
+.social-text {
+  font-size: 16px;
+  margin-left: -2px;
+}
+
+.socialsbox:hover {
+  transform: translateX(4px);
+  background: rgb(18, 67, 117, 0.1);
+  cursor: pointer;
+  text-shadow: -0.3px -0.3px 0 #a8c9fe, 0.3px -0.3px 0 #a8c9fe, -0.3px 0.3px 0 #a8c9fe, 0.3px 0.3px 0 #a8c9fe;
+}
+
+.social-link {
+  text-decoration: none; /* remove underline */
+  color: inherit;        /* keep text color */
+  display: block;        /* makes the whole box clickable */
 }
