@@ -1,0 +1,74 @@
+html {
+    font-family:'CuteFont';
+    font-size:18px;
+    color:#124375;
+    background-color: white;
+    background-color: rgba(255, 255, 255, 0.486);
+    background-blend-mode: overlay;
+    background-image:url("https://rice.nekoweb.org/rice/cloth.png");
+    padding:10px;
+    image-rendering:pixelated;
+    cursor: url('https://rice.nekoweb.org/toroinoue.ico'), auto;
+}
+
+@font-face {
+  font-family: 'CuteFont';       /* Name you’ll use in CSS */
+  src: url('fonts/Mochibop-Demo.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.container {
+    width:600px;
+    margin:0 auto;
+    position:relative;
+}
+
+.header {
+    font-family:cute;
+    font-size:100px;
+    text-align:center;
+    color:#124375;
+    text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
+    filter: drop-shadow(0px 0px 1px white) drop-shadow(0px 0px 1px white)
+        drop-shadow(0px 0px 1px white) drop-shadow(0px 0px 1px white)
+        drop-shadow(0px 0px 1px white) drop-shadow(1px 1px 0px #0000004d);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+
+.main {
+    margin:0 auto;
+    margin-top:10px;
+    background-image: url("https://rice.place/rice/bluebg.png");
+    border-radius:10px;
+    padding:15px;
+    
+}
+
+.mainbox {
+    width:100%;
+    background-color: white;
+    padding:10px;
+    padding-bottom: 0px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border:1px dashed #b2c8df;
+    overflow: hidden;
+}
+
+.tooltip-follow {
+  position: absolute;
+  pointer-events: none; /* so it doesn't block the cursor */
+  background-color: #6c63ff;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  white-space: nowrap;
+  display: none; /* hide by default */
+  z-index: 1000;
+}
+
