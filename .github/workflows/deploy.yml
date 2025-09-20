@@ -17,4 +17,4 @@ jobs:
           nekoweb-cookie: ${{ secrets.NEKOWEB_COOKIE }}
           nekoweb-domain: 'shayuki.nekoweb.org'
           nekoweb-username: 'shayuki'
-          directory: 'public'
+          directory: 'website/'
