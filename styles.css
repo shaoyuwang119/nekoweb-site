@@ -52,7 +52,7 @@ html {
   100% { transform: translateY(0); }
 }
 
-.main {
+.plaid {
     image-rendering:pixelated;
     margin: 15px auto;
     border-radius:10px;
@@ -78,8 +78,8 @@ html {
   border-radius: 10px;
 }
 
-.darkborder {
-  border-color: rgb(18, 67, 117);
+.border:hover, .mainbox:hover {
+  border-color: rgb(81, 121, 160);
 }
 
 .sidebar {
@@ -158,7 +158,7 @@ html {
 
 .socialsbox:hover {
   transform: translateX(4px);
-  background: rgb(18, 67, 117, 0.1);
+  
   cursor: pointer;
 }
 
@@ -170,6 +170,10 @@ html {
 
 .social-link:hover {
   text-shadow: -0.3px -0.3px 0 #a8c9fe, 0.3px -0.3px 0 #a8c9fe, -0.3px 0.3px 0 #a8c9fe, 0.3px 0.3px 0 #a8c9fe;
+}
+
+.social-link:active {
+  background: rgb(18, 67, 117, 0.1);
 }
 
 #weather:hover {
