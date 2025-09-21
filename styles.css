@@ -79,7 +79,7 @@ html {
 }
 
 .border:hover, .mainbox:hover {
-  border-color: rgb(81, 121, 160);
+  border-color: rgb(65, 107, 150);
 }
 
 .sidebar {
@@ -115,7 +115,6 @@ html {
 
 .icon {
   height: 25px;
-  image-rendering: pixelated;
   float:right; 
   border-radius:5px;
 }
